@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import requests
 import pandas as pd
 from io import StringIO
+import lxml
 
 def get_page_content(address):
     url = f'https://polygonscan.com/address/{address}#multichain-portfolio'
